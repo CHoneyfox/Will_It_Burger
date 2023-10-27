@@ -2,18 +2,6 @@
 #include <iostream>
 #include <raylib.h>
 
-
-/*
-    Burger = Bun + Patty
-        Bun = Flour + Milk
-            Flour = Wheat + Blender
-            Milk = Cow + Grass
-        Patty = Cow + Knife or Chainsaw
-            Cow = DNA + Water
-            Knife = Stick + Stone
-                Stick = Tree + Chainsaw
-*/
-
 enum class Type {
     none=-1,
     Bun,
